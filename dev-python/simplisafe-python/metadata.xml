@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="project">
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
   </maintainer>
-  <herd>python</herd>
   <upstream>
     <remote-id type="pypi">simplisafe-python</remote-id>
+    <maintainer status="unknown">
+      <email>bachya1208@gmail.com</email>
+      <name>Aaron Bach</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

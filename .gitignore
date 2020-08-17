@@ -1,3 +1,8 @@
 /*~
 /._.DS_Store
 /.DS_Store
+*/.DS_Store
+
+/repoman/*
+/tools/
+/metadata/md5-cache/

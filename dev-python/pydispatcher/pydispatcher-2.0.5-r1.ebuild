@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -9,7 +9,7 @@ inherit distutils-r1 vcs-snapshot
 MY_PN="PyDispatcher"
 
 DESCRIPTION="Multi-producer-multi-consumer signal dispatching mechanism"
-HOMEPAGE="http://pydispatcher.sourceforge.net/ https://pypi.org/project/PyDispatcher/"
+HOMEPAGE="https://pydispatcher.sourceforge.net/ https://pypi.org/project/PyDispatcher/"
 SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"

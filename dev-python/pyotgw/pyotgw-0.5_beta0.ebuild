@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
@@ -9,7 +9,7 @@ inherit distutils-r1
 
 MY_P="${PN}-${PV/_beta/b}"
 
-DESCRIPTION="A library to interface with the opentherm gateway through serial or network connection."
+DESCRIPTION="Opentherm gateway through serial or network connection."
 HOMEPAGE="https://github.com/mvn23/pyotgw https://pypi.org/project/pyotgw/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
 

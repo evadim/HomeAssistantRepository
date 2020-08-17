@@ -4,5 +4,12 @@
   <maintainer type="project">
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
-  </maintainer>
+  </maintainer>  
+  <upstream>
+    <remote-id type="pypi">abodepy</remote-id>
+    <maintainer status="unknown">
+      <email>wilrader@gmail.com</email>
+      <name>Wil Schrader</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

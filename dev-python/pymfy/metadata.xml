@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="project">
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
   </maintainer>
-  <herd>python</herd>
   <upstream>
     <remote-id type="pypi">pymfy</remote-id>
+    <maintainer status="unknown">
+      <email>thibaud.etienne@umontpellier.fr</email>
+      <name>ETIENNE Thibaut</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

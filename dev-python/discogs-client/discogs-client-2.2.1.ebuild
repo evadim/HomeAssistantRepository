@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
@@ -11,7 +11,9 @@ DESCRIPTION="Official Python API client for Discogs"
 HOMEPAGE="https://github.com/discogs/discogs_client https://pypi.org/project/discogs-client/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="all-rights-reserved"
+RESTRICT="mirror"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"

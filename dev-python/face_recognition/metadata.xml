@@ -1,14 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer>
+  <maintainer type="project">
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
   </maintainer>
-  <herd>python</herd>
   <upstream>
     <remote-id type="pypi">face_recognition</remote-id>
-    <docs>https://pythonhosted.org/face_recognition/</docs>
     <maintainer status="unknown">
       <email>ageitgey@gmail.com</email>
       <name>Adam Geitgey</name>

@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{6,7} )
 inherit distutils-r1
 
 DESCRIPTION="An XPath for JSON"
-HOMEPAGE="http://www.ultimate.com/phil/python/#jsonpath https://pypi.org/project/jsonpath/"
+HOMEPAGE="https://www.ultimate.com/phil/python/#jsonpath https://pypi.org/project/jsonpath/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
